@@ -1,8 +1,8 @@
 var http = require('http');
 
-http.createServer( function( req, res )
+http.createServer( function( req, res ){
   res.writeHead( 200 );
-  res.write( "hello world from response" );
+  res.write( "hello world from create server response" );
   res.end();
 }).listen(3000);
 
