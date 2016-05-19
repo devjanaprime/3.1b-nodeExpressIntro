@@ -1,11 +1,14 @@
 var http = require('http');
-var helloWorldModule = require( '../modules/helloWorldModule');
+var helloWorldModule = require( '../modules/helloWorldModule' );
+var multipleExports = require( '../modules/multipleExports' );
 
 http.createServer( function( req, res ){
   res.writeHead( 200 );
   res.write( "hello world from create server response" );
   res.write( functionResponse() );
   res.write( helloWorldModule() );
+  res.write( multipleExports.genericMessage );
+  res.write( multipleExports.multipleExportFunction() );
   res.end();
 }).listen(3000);
 

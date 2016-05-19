@@ -4,7 +4,8 @@
   "description": "node and express intro",
   "main": "server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "@devjana",
   "license": "ISC",
