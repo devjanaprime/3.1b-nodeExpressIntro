@@ -1,0 +1,14 @@
+{
+  "name": "nodeandexpressintro",
+  "version": "1.0.0",
+  "description": "node and express intro",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@devjana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
